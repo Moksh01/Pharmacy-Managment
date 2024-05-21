@@ -1,0 +1,38 @@
+body {
+    background: #dfe9f5;
+  }
+.customer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 100%;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;  /* Adjust spacing between label and input */
+  }
+  
+  .form-row label {
+    flex: 0 0 100px;  /* Set a fixed width for labels */
+  }
+  
+  .customer-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;  
+    transition: background-color 0.2s ease-in-out;  
+  }
+  
+  .customer-form button[type="submit"]:hover {
+    background-color: #3e8e41;  
+  }
+  
